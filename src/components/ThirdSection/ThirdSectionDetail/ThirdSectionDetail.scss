@@ -1,0 +1,15 @@
+@import "../../../common//variables";
+
+.third-section-detail {
+	// width: 550px;
+	background-color: $third-section-gray;
+	margin: 0.5rem;
+	text-align: center;
+    width: 500px;
+    padding: 2rem;
+
+	&-image {
+        margin-top: -5rem;
+        // transform: translateY(-5rem);
+	}
+}

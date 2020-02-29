@@ -1,0 +1,25 @@
+.second-section {
+	margin: 2rem auto;
+
+	&-container {
+		display: flex;
+
+		.second-section-left {
+			flex: 1;
+
+			h2 {
+				font-size: 3rem;
+                margin-bottom: 1.5rem;
+                line-height: 3.5rem;
+			}
+
+			p {
+				max-width: 30rem;
+			}
+		}
+
+		.second-section-right {
+			flex: 1;
+		}
+	}
+}
